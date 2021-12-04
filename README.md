@@ -1,6 +1,10 @@
 Gitea backup container
 ======================
 
+**WARNING:**
+Currently (December 4, 2021), the `gitea dump` command seems not work well on the Docker.
+Please consider to use [volume-backup](https://github.com/macrat/volume-backup) instead of this.
+
 A docker container image for scheduling backup of [Gitea](https://gitea.io/).
 
 ``` bash
